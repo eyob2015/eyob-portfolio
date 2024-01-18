@@ -1,0 +1,63 @@
+.forum-description {
+    background-color:var(--color-bg);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .subtitle {
+    color: #1b1a1a;
+  }
+  
+  .introduction,
+  .key-features,
+  .tech-stack,
+  .challenges,
+  .future-enhancements,
+  .conclusion {
+    margin-top: 20px;
+  }
+  
+  .feature {
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 2em;
+  }
+  
+  h1,
+  h2 {
+    color: #e0d52e;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  /* Customize the background color of each section if needed */
+  .introduction {
+    background-color: var(--color-bg);
+  }
+  
+  .key-features {
+    background-color:var(--color-bg);
+  }
+  
+  .tech-stack {
+    background-color: var(--color-bg);
+  }
+  
+  .challenges {
+    background-color: var(--color-bg);
+  }
+  
+  .future-enhancements {
+    background-color: var(--color-bg);
+  }
+  
+  .conclusion {
+    background-color:var(--color-bg);
+  }
+  

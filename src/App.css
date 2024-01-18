@@ -1,0 +1,51 @@
+.nav {
+  z-index: 99;
+  width: 500px;
+  height: 50px;
+
+  background: rgba(36, 33, 33, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.1rem 0.1rem;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0.5rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 2rem;
+  backdrop-filter: blur(15px);
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer; /* Set the cursor to pointer */
+
+}
+button:active {
+  background-color: #1c6380;
+  transition: background-color 0.1s ease-in-out; /* Adjust the animation speed */
+}
+button:hover {
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  height: auto;
+}

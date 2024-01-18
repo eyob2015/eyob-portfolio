@@ -1,0 +1,93 @@
+.netflix-clone-description {
+  background-color: #111;
+  margin-top: 20px;
+  color: #fff; /* White text */
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.netflix{
+  margin-top: 40px;
+}
+.subtitle {
+  color: #fff; /* White text */
+}
+
+.introduction,
+.key-features,
+.challenges,
+.future-enhancements,
+.conclusion {
+  margin-top: 20px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.icon {
+  font-size: 2em;
+}
+
+h1,
+h2 {
+  color: #fff; /* White text */
+  text-align: center;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.banner {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.banner img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 0, 0, 0.7); /* Red overlay */
+  opacity: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.banner:hover img {
+  transform: scale(1.05);
+}
+
+.banner:hover .banner-overlay {
+  opacity: 1;
+}
+
+.play-icon {
+  font-size: 3em;
+  color: #e50914; /* Netflix red */
+}
+
+.trending-item img,
+.category img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.trending-item img:hover,
+.category img:hover {
+  transform: scale(1.05);
+}
