@@ -57,46 +57,27 @@ section {
   }
 
   /* Hide the buttons by default on smaller screens */
-  .nav button {
+  .menu-items button {
     display: none;
   }
 
   /* Show the burger menu icon on smaller screens */
   .burger-menu {
-    display: block;
-    cursor: pointer;
-  }
-
-  /* Show the buttons when the burger menu is active */
-  .burger-menu.active + button {
-    display: block;
-  }
-}
-
-/* Media query for screens smaller than 480px (mobile) */
-@media screen and (max-width: 480px) {
-   .nav {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  /* Hide the buttons by default on smaller screens */
-  .nav button {
     display: none;
   }
 
-  /* Show the burger menu icon on smaller screens */
-  .burger-menu {
+  /* Show the buttons when the burger menu is active */
+  .burger-menu:checked + .menu-items button {
+    display: block;
+  }
+
+  /* Style the burger menu icon */
+  .burger-icon {
     display: block;
     cursor: pointer;
   }
-
-  /* Show the buttons when the burger menu is active */
-  .burger-menu.active + button {
-    display: block;
-  }
-  /* Adjust styles as needed for smaller screens */
 }
+
 
 /* Add styles for the burger menu icon */
 .burger-menu {
