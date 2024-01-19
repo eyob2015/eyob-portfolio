@@ -72,12 +72,11 @@ section {
   }
 
   /* Style the burger menu icon */
-  .burger-icon {
+  label[for="burger-menu"] {
     display: block;
     cursor: pointer;
   }
 }
-
 
 /* Add styles for the burger menu icon */
 .burger-menu {
