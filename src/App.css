@@ -49,7 +49,7 @@ button:hover {
 section {
   height: auto;
 }
-/* Media query for screens smaller than 768px (tablet) */
+/* Med/* Media query for screens smaller than 768px (tablet) */
 @media screen and (max-width: 768px) {
   .nav {
     flex-direction: column;
@@ -63,7 +63,7 @@ section {
 
   /* Show the burger menu icon on smaller screens */
   .burger-menu {
-    display: none;
+    display: block;
   }
 
   /* Show the buttons when the burger menu is active */
@@ -80,7 +80,7 @@ section {
 
 /* Add styles for the burger menu icon */
 .burger-menu {
-  display: none; /* Hidden by default on larger screens */
+  display: block; /* Initially set to block for smaller screens */
   cursor: pointer;
 }
 
@@ -88,3 +88,4 @@ section {
 .logo {
   max-width: 100%;
 }
+
