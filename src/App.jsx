@@ -38,7 +38,7 @@ const App = () => {
   </Link>
 
   <input type="checkbox" id="burger-menu" class="burger-menu">
-  <label for="burger-menu">&#9776;</label>
+  <label for="burger-menu" class="burger-icon">&#9776;</label>
 
   <div class="menu-items">
     <Link to="/Home"><button>Home</button></Link>
@@ -50,6 +50,7 @@ const App = () => {
     <Link to="/contact"><button>Contact Me</button></Link>
   </div>
 </div>
+
 
                 
         
