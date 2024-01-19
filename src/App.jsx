@@ -31,50 +31,27 @@ const App = () => {
       <div className="app">
       
         
-        <div className='nav'>
-        
-    
-              
-                <Link to="/"> {}
-                  <img className='logo' src={logo} alt={"Logo"} />
-                </Link>
-            
-                <Link to="/Home">
-                <button>Home</button>
-                </Link>
-                <Link to="/project">
-                <button>Projects</button>
-                </Link>
-              
-            
-                <Link to="/about">
-                <button>About</button>
-                </Link>
-            
-              
-                <Link to="/experience">
-                <button>Experience</button>
-                </Link>
-            
-            
-                <Link to="/portfolio">
-                  <button>portfolio</button>
-                </Link>
-              
-              
-                <Link to="/services">
-                <button>Services</button>
-                </Link>
-              
-              
-                <Link to="/contact">
-                <button>ContacMe</button>
-                </Link>
-              
           
-        
-          </div>
-          
+<div class='nav'>
+  <Link to="/">
+    <img class='logo' src={logo} alt={"Logo"} />
+  </Link>
+
+  <input type="checkbox" id="burger-menu" class="burger-menu">
+  <label for="burger-menu">&#9776;</label>
+
+  <div class="menu-items">
+    <Link to="/Home"><button>Home</button></Link>
+    <Link to="/project"><button>Projects</button></Link>
+    <Link to="/about"><button>About</button></Link>
+    <Link to="/experience"><button>Experience</button></Link>
+    <Link to="/portfolio"><button>Portfolio</button></Link>
+    <Link to="/services"><button>Services</button></Link>
+    <Link to="/contact"><button>Contact Me</button></Link>
+  </div>
+</div>
+
+                
         
         
 <Routes>
