@@ -23,7 +23,7 @@ const Portfolio = () => {
             </p>
             <div className="button-container">
               <a
-                href="https://eyob-netflix-clone.vercel.app/"
+                href="https://eyob-netflix-clone.vercel.app"
                 className="btn btn-primary mr-2"
                 target="_blank"
                 rel="noopener noreferrer"
