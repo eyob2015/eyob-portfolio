@@ -3,7 +3,7 @@
     border: 1px solid #171313;
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%;
+    gap: 8%;
   }
   .about__me{
     width: 100%;
@@ -35,7 +35,7 @@
   .about__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 1rem;
   }
   
   .about__card {

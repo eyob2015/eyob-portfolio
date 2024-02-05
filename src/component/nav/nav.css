@@ -1,41 +1,55 @@
-nav {
-  background: rgba(0, 0, 0, 0.3);
-  width: max-content;
-  display: block;
-  padding: 0.1rem 0.1rem;
-  z-index: 2;
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 1rem;
-  display: flex;
-  gap: 0.8rem;
-  border-radius: 3rem;
-  backdrop-filter: blur(15px);
-}
 
-nav a {
-  display: flex;
-  justify-content: center;
+.navbar .nav-link {
+  color: #fff;
+  padding: 10px;
+  margin-left: 45px;
+
+  border-radius: 10px;
   align-items: center;
-  list-style: none;
-  margin: 0;
-  padding: 1rem;
-  color:var(--light-color);
-  background: transparent ;
-  border-radius: 50%;
+  text-align: center;
+}
+
+
+.navbar .nav-link:hover {
+  color: #db7515;
+}
+.navig {
   display: flex;
-  color:var(--light-color);
-  font-size: 1.1rem;
-
+  justify-content: space-around;
+  height: 80px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: aqua;
 }
-nav a:hover
-{
-background: rgba(0,0,0, 0.3);  
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
 }
-nav a.active{
-  color: var(--color-white);
-  background: var(--color-bg);
 
+.bm-cross {
+  background: #bdc3c7;
+}
 
+.bm-menu {
+  background: #007bff; /* Primary Bootstrap color */
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #007bff; /* Primary Bootstrap color */
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-item-list > *:hover {
+  color: #c1c1c1;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
 }

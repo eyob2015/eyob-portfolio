@@ -89,9 +89,17 @@ background-color: var(--color-primary-variant);}
 
 @media screen and (max-width:600px) {
   .card-grid {
-    grid-template-columns:1fr 1fr;
-    gap: 1.2rem;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 5px;
+  padding: 1.3rem;
+  border-radius: 2rem;
+  background: var(--color-bg);
+  transition: var(--transition);
+  border: 2px solid transparent;
+  gap: 1rem;
+  
+}
 
 
   }

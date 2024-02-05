@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../header/header';
-import Nav from '../nav/nav';
+import Nav from '../nav/NavBar';
 import About from '../about/about';
 import Contact from '../contact/contact';
 import Experience from '../experience/experience';

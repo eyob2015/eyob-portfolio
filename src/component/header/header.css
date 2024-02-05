@@ -3,13 +3,13 @@ header {
     padding: 10px;
     padding-top: 5rem;
     overflow: hidden;
-    height: auto;
+   
   }
 
   .header__container{
 
     text-align: center;
-    height:50%;
+    height:100vh;
     position: relative;
   }
   /*cta=================*/
@@ -39,12 +39,11 @@ bottom: 3rem;
   .me{
    background: linear-gradient(var(--primary-color),transparent);
     width: 22rem;
-    height: 20rem;
+    height: 22rem;
     position: absolute;
-    border-radius: 100%;
     left: calc(50% - 11rem);
     margin-top: 2rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 100%;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
   }
@@ -63,7 +62,7 @@ bottom: 3rem;
   /* Styles for screens smaller than 768px (e.g. mobile devices) */
   
   header{
-    height: 100vh;
+    height: 200vh;
   }
   .header__socials,.scrol__down{
     display: none;
@@ -80,7 +79,7 @@ bottom: 3rem;
   /* Styles for screens between 769px and 1024px (e.g. tablets) */
   
   header{
-    height: 68vh;
+    height: 150vh;
   }
 
   }

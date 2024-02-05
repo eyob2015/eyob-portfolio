@@ -77,17 +77,7 @@
     opacity: 1;
   }
   
-  .shop-now {
-    font-size: 1.5em;
-    color: #fff;
-    text-decoration: none;
-    background-color: #e77600;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
   
-  .shop-now:hover {
-    background-color: #d16600;
-  }
+  
+ 
   
